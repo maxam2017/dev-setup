@@ -1,16 +1,39 @@
 {
-  "name": "dev-setup",
+  "name": "@maxam2017/dev-setup",
   "version": "1.0.0",
-  "description": "some env setup scripts",
-  "main": "build/index.js",
+  "description": "a simple env setup script",
+  "author": "maxam2017",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxam2017/dev-setup.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "bin": {
+    "dev-setup": "build/index.js"
+  },
+  "homepage": "https://github.com/maxam2017/dev-setup#readme",
+  "keywords": [
+    "dev-setup",
+    "cli",
+    "zx",
+    "terminal"
+  ],
+  "bugs": {
+    "url": "https://github.com/maxam2017/dev-setup/issues"
+  },
+  "type": "module",
+  "files": [
+    "build/index.js"
+  ],
   "scripts": {
     "format": "prettier . --write",
     "lint": "eslint . --ext .ts",
     "build": "rollup --config",
     "prepare": "husky install"
   },
-  "author": "maxam2017",
-  "license": "MIT",
   "engines": {
     "node": ">= 14.8.0"
   },

@@ -8,7 +8,7 @@ Setup dev env by some scripts
 Ensure you have [Node.js](https://nodejs.org) version 14.8.0+ installed. Then run the following:
 
 ```bash
-$
+$ npx github:maxam2017/dev-setup
 ```
 
 ## License
