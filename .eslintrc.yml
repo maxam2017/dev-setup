@@ -1,5 +1,8 @@
 extends:
   - prettier # https://prettier.io/docs/en/integrating-with-linters.html
+parser: '@typescript-eslint/parser'
+plugins:
+  - '@typescript-eslint'
 parserOptions:
   ecmaVersion: 2018
   sourceType: module

@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": ">=6",
@@ -30,5 +32,8 @@
   "lint-staged": {
     "*.ts": "eslint --cache --fix",
     "*.--write": "prettier --write"
+  },
+  "dependencies": {
+    "zx": "^2.0.0"
   }
 }

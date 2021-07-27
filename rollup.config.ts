@@ -11,4 +11,5 @@ export default {
     dir: 'build',
   },
   plugins: [typescript(), shebang(), terser()],
+  external: ['zx'],
 };
