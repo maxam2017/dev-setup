@@ -11,6 +11,9 @@
   },
   "author": "maxam2017",
   "license": "MIT",
+  "engines": {
+    "node": ">= 14.8.0"
+  },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.3",
     "eslint": "^7.31.0",
