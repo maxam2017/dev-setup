@@ -1,0 +1,5 @@
+extends:
+  - prettier # https://prettier.io/docs/en/integrating-with-linters.html
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
