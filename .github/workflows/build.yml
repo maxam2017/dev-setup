@@ -28,4 +28,4 @@ jobs:
           yarn upload
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 23ee87604850fd7eed677caf9690d5f9
+          GIST_ID: e6e1cdfcea220741a15daa6cc8a98cdb
