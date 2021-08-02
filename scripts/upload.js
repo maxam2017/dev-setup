@@ -19,6 +19,7 @@ const genPkg = () => {
     name: pkg.name,
     version: pkg.version,
     description: pkg.description,
+    type: pkg.type,
     bin: './index.js',
     dependencies: pkg.dependencies,
   });

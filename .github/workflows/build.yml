@@ -22,7 +22,7 @@ jobs:
           yarn install
           yarn format
           yarn lint
-          yarn build -- --format cjs
+          yarn build
       - name: upload to gist
         run: |
           yarn upload
