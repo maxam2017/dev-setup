@@ -22,4 +22,10 @@ jobs:
           yarn install
           yarn format
           yarn lint
-          yarn build
+          yarn build -- --format cjs
+      - name: upload to gist
+        run: |
+          yarn upload
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: 23ee87604850fd7eed677caf9690d5f9
