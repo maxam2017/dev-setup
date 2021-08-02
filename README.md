@@ -13,6 +13,7 @@ $ npx https://gist.github.com/maxam2017/e6e1cdfcea220741a15daa6cc8a98cdb
 
 ## FAQ
 1. why just use `npx github:[user]/[repository]`?
+
 It doesn't work on my device. Still find the root cause...
 
 ## License
